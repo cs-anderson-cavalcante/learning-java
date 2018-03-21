@@ -5,10 +5,13 @@ public class Conta {
 	private double saldo;
 	
 	// Preparando o objeto para ser usado, ou seja, instanciando a classe conta.
+
 	public Conta(int nConta) {
-	this.numeroConta = nConta;
+		this.numeroConta = nConta;
 	}
+	
 		public void imprime () {
-		System.out.println(this.numeroConta);
+			System.out.println(this.numeroConta);
 		}
+	
 }

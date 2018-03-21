@@ -7,7 +7,7 @@ public class ConstrutorPrincipal {
 	// Não é obrigatório
 	public static void main(String[] args) {
 
-		Conta conta = new Conta(10023);
+		Conta conta = new Conta(100230);
 		conta.imprime();
 	}
 
