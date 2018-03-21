@@ -1,0 +1,16 @@
+package com.projeto.metodos;
+
+public class Metodos {
+	
+	// Grupo de código que faz uma determinada operação por exemplo:
+	public static void main(String[] args) {
+		System.out.println("Metodo 1");
+		meuMetodo();
+	}
+	
+	// criando um novo metodo
+	
+	public static void meuMetodo() {
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.projeto.contrutores;
+
+public class ConstrutorPrincipal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

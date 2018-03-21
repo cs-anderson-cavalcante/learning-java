@@ -1,0 +1,27 @@
+package com.projeto.metodos;
+
+public class Metodos {
+	
+	// Grupo de código que faz uma determinada operação por exemplo:
+	public static void main(String[] args) {
+		// printando os argumentos do metodo criado abaixo
+		// para chamar um metodo crido após o metodo principal é só fazer assim:
+		multiplicar(2,5);
+		multiplicar(5,5);
+
+	}
+	
+	// criando um novo metodo
+	public static void meuMetodo() {
+		System.out.println("Esse é meu metodo");
+	}
+	
+	public static void multiplicar (int numero1, int numero2) {
+		int resultado = 0;
+			resultado = numero1 * numero2;
+			System.out.println(resultado);
+
+	}
+	
+
+}

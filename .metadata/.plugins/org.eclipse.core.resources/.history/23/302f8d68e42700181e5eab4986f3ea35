@@ -1,0 +1,89 @@
+package com.projeto.operadores;
+
+public class Operador {
+
+	/*
+		OPERADORES RELACIONAIS
+	=  (ATRIBUIÇÃO)
+	== (IGUAL A)
+	!= (DIFERENTE)
+	>  (MAIOR QUE)
+	<  (MENOR QUE)
+	>= (MAIOR OU IGUAL)
+	<= (MENOR OU IGUAL)
+	
+		OPERADORES LÓGICOS
+	&& (E)
+	|| (OU)
+
+*/
+
+public static void main(String[] args) {
+	
+				// OPERADOR IGUALDADE == \\
+	//CRIANDO UMA VARIAVEL CHAMADA "IGUALDADE"
+	//TESTANDO A VARIAVEL PARA SABER SE 5 REALMENTE É IGUAL A 3.
+	//PRINTANDO NA TELA O VALOR DA VARIAVEL "IGUALDADE"
+	boolean igualdade;
+	igualdade = 5 == 5;
+	System.out.println(igualdade);
+	
+	//CRIANDO UMA VARIAVEL CHAMADA "IGUALDADE2"
+	//CRIANDO 2 VARIAVEIS DO TIPO INT COM VALORES
+	//TESTANDO A VARIAVEL PARA SABER SE VALOR1 REALMENTE É IGUAL A VALOR2.
+	//PRINTANDO NA TELA O VALOR DA VARIAVEL "IGUALDADE2"
+	boolean igualdade2;
+	int valor1=3;
+	int valor2=3;
+	igualdade2 = valor1 == valor2;
+	System.out.println(igualdade2);
+	
+/*
+ ******************************************************************************************* 	
+ */
+	
+				// OPERADOR DIFERENTE != \\
+	//CRIANDO UMA VARIAVEL CHAMADA "DIFERENTE"
+	//TESTANDO A VARIAVEL PARA SABER SE 5 REALMENTE É DIFERENTE A 3.
+	//PRINTANDO NA TELA O VALOR DA VARIAVEL "DIFERENTE"
+	boolean diferente;
+	diferente = 5 != 5;
+	System.out.println(diferente);
+	
+	//CRIANDO UMA VARIAVEL CHAMADA "DIFERENTE2"
+	//CRIANDO 2 VARIAVEIS DO TIPO INT COM VALORES
+	//TESTANDO A VARIAVEL PARA SABER SE VALOR3 REALMENTE É DIFERENTE A VALOR4.
+	//PRINTANDO NA TELA O VALOR DA VARIAVEL "DIFERENTE2"
+	boolean diferente2;
+	int valor3=3;
+	int valor4=3;
+	diferente2 = valor3 != valor4;
+	System.out.println(diferente2);
+	
+/*
+ * ******************************************************************************************* 	
+ */
+				// OPERADOR MAIOR > \\
+		//CRIANDO UMA VARIAVEL CHAMADA "DIFERENTE"
+		//TESTANDO A VARIAVEL PARA SABER SE 5 REALMENTE É DIFERENTE A 3.
+		//PRINTANDO NA TELA O VALOR DA VARIAVEL "DIFERENTE"
+		boolean maior;
+		maior = 6 > 5;
+		System.out.println(maior);
+		
+		//CRIANDO UMA VARIAVEL CHAMADA "DIFERENTE2"
+		//CRIANDO 2 VARIAVEIS DO TIPO INT COM VALORES
+		//TESTANDO A VARIAVEL PARA SABER SE VALOR3 REALMENTE É DIFERENTE A VALOR4.
+		//PRINTANDO NA TELA O VALOR DA VARIAVEL "DIFERENTE2"
+		boolean maior2;
+		int valor5=6;
+		int valor6=5;
+		maior2 = valor5 > valor6;
+		System.out.println(maior2);
+
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.projeto.conta;
+
+public class Conta {
+	
+	// criando atributos dentro da classe Conta
+	int numeroConta;
+	private double saldo = 100; // armazena o saldo atual da conta.
+	
+	public void depositar(double valorDepositar) {
+		// o this é usado para acessar atributos ou metodos dentro da classe
+		this.saldo = this.saldo + valorDepositar;
+	} // ira encrementar o saldo
+	
+	public void sacar(double valorSacar) {
+		this.saldo = this.saldo - valorSacar;
+
+	}
+}
+
+

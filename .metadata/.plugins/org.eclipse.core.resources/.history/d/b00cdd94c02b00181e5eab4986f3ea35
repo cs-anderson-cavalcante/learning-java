@@ -1,0 +1,13 @@
+package com.projeto.classes;
+
+public class Casa {
+// Atributo
+	String cor;
+	String vagasGaragem;
+	
+// Metodo, comportamento
+	public void abrirGaragem() {
+	System.out.println("Garagem aberta");
+
+	}
+}

@@ -1,0 +1,20 @@
+package com.projeto.loops;
+
+public class LoopsPrincipal {
+
+	public static void main(String[] args) {
+		
+		//			Loops WHILE, DO WHILE e FOR
+		
+		// WHILE, no caso do while, ele está testando se a variavel numero é menor que 11
+		int numero=1;
+		while( numero < 11 ) {
+		System.out.print("Loop" + numero);
+		numero = numero +1;
+		
+	}
+	
+	
+	}
+
+}

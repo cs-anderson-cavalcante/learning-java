@@ -1,0 +1,32 @@
+package com.projeto.conta;
+
+public class ClassePrincipal {
+
+	public static void main(String[] args) {
+      
+		
+		//
+		Conta contaPrincipal = null;
+		Conta conta1 = new Conta();
+		Conta conta2 = new Conta();
+	
+		conta1.numeroConta = 1;
+		conta2.numeroConta = 2;
+		
+		contaPrincipal = conta1;
+		contaPrincipal = conta2;
+		
+		contaPrincipal.numeroConta = 4;
+	
+		System.out.println(conta1.numeroConta);
+		System.out.println(conta2.numeroConta);
+		
+		//		Conta conta = new Conta();
+//		conta.depositar(100); //deposito de mais 100$, valor atual 200$
+//		conta.sacar(50);// 200 - 50 = 150$
+//		conta.minhaPropriedadeProtegida = "Anderson: ";
+//		System.out.println(conta.minhaPropriedadeProtegida + conta.retornarSaldo() );
+	}
+
+	
+}

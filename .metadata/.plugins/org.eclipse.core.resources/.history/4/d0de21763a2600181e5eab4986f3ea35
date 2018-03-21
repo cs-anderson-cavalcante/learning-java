@@ -1,0 +1,22 @@
+package com.projeto.variaveisjava;
+
+public class Variavel {
+	
+	//Byte - armazena numeros (-128 até 127)
+	//int - armazena numeros (quase infinitos)
+	//long - armazena numeros tbm (mais dop que o int)
+
+	public static void main(String[] args) {
+		
+		//Atribuindo valor a variável criada
+		byte minhaVariavelByte = 12;
+		int minhaVariavelInt = 75643243;
+		long minhaVariavelLong = 23874684876284;
+		
+		System.out.println(minhaVariavelByte);
+		System.out.println(minhaVariavelInt);
+		System.out.println(minhaVariavelLong);
+
+	}
+
+}
