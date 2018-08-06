@@ -14,6 +14,7 @@ public class ClassePrincipal {
 		Casa minhaCasa = new Casa();
 		// Colocando um "."ponto no final do nome da varivel ("minhaCasa.") podemos ver todos os metodos e atributos disponivel dentro do objeto Casa
 		minhaCasa.cor = "Azul";
+		minhaCasa.abrirGaragem();
 		System.out.println(minhaCasa.cor);
 		
 		minhaCasa.abrirGaragem();

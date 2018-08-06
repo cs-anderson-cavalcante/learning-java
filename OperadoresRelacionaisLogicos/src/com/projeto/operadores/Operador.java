@@ -146,12 +146,12 @@ public static void main(String[] args) {
 */
 		
 			
-		// OPERADOR OU ||& \\
+		// OPERADOR OU || \\
 		//CRIANDO UMA VARIAVEL CHAMADA "OU"
 		//TESTANDO A VARIAVEL PARA SABER SE AS CONDIÇÕES SÃO VERDADEIRAS.
 		//PRINTANDO NA TELA O VALOR DA VARIAVEL "OU"
 		boolean ou;
-		ou = 8==8 && 7==7;
+		ou = 8==1 || 7==1;
 		System.out.println(ou);
 				
 		//CRIANDO UMA VARIAVEL CHAMADA "OU2"
@@ -162,7 +162,7 @@ public static void main(String[] args) {
 		int teste6=7;
 		int teste7=8;
 		int teste8=7;
-		ou2 = teste5==teste6 && teste6==teste7;
+		ou2 = teste5==teste6 || teste6==teste7;
 		System.out.println(ou2);
 				
 /*

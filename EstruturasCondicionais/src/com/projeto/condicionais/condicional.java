@@ -11,6 +11,7 @@ public class condicional {
 		int v1=3;
 		int v2=1;
 		int soma = v1+v2;
+		
 		if( soma==6 ){
 			System.out.println("Aprovado");	
 		} else if( soma > 6 ){

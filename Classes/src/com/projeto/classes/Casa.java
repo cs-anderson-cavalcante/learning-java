@@ -8,6 +8,5 @@ public class Casa {
 // Metodo, comportamento
 	public void abrirGaragem() {
 	System.out.println("Garagem aberta");
-
 	}
 }
